@@ -4,8 +4,7 @@
   width: 160px;
   border-radius: 4px;
   transition: 0.3s;
-  margin: 5px;
-  box-shadow: 3px 4px 5px grey;
+
   h2 {
     font-size: 1rem;
   }
@@ -13,7 +12,6 @@
   &:hover {
     transform: scale(1.2);
     z-index: 2;
-    box-shadow: 10px 10px 10px opacify($color: rgba(82, 82, 82, 0.137), $amount: 0.5);
   }
 
   &:hover .infos {
@@ -44,4 +42,3 @@
     border-radius: 10px;
   }
 }
-
